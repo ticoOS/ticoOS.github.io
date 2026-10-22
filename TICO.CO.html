@@ -108,13 +108,20 @@
             background-color: var(--azul-arch);
             color: #ffffff;
         }
-
-        /* HERO SECTION */
+        
+       /* HERO SECTION */
         .hero {
-            text-align: center;
-            padding: 80px 20px 40px 20px;
-            max-width: 850px;
+           display: flex;
+           flex-direction: column;
+           align-items: center;    /* Centraliza os botões e texto na horizontal */
+           justify-content: center; /* Centraliza o conteúdo */
+           text-align: center;      /* Garante texto centralizado */
+           padding: 100px 20px 60px 20px;
+           max-width: 850px;
+           margin: 0 auto;          /* Garante centralização caso saia do flex container */
+           width: 100%;             /* Garante preenchimento em telas menores */
         }
+        
 
         .hero h1 {
             font-size: 46px;
