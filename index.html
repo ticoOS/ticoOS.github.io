@@ -311,10 +311,21 @@
         </div>
 
         <div class="download-steps">
-            <div class="step"><strong>1.</strong> O botão acima inicia o download das duas partes. Se o navegador perguntar, permita downloads múltiplos.</div>
-            <div class="step"><strong>2. Linux/macOS:</strong> <code>cat ticoOS-BETA-v0.0.1-x86_64.iso.part1 ticoOS-BETA-v0.0.1-x86_64.iso.part2 &gt; ticoOS-BETA-v0.0.1-x86_64.iso</code></div>
-            <div class="step"><strong>2. Windows:</strong> <code>copy /b ticoOS-BETA-v0.0.1-x86_64.iso.part1+ticoOS-BETA-v0.0.1-x86_64.iso.part2 ticoOS-BETA-v0.0.1-x86_64.iso</code></div>
-            <div class="step"><strong>3. SHA256 do ISO final:</strong> <code>2086572e504d6e52f43388aff30b005b1df3ea007c538e431d694d64c155a199</code></div>
+            <div class="step"><strong>1.</strong> Clique no botão acima para baixar as duas partes. Se o navegador perguntar, permita downloads múltiplos.</div>
+            <div class="step"><strong>2.</strong> Abra o <strong>Terminal</strong> (Linux/macOS) ou o <strong>Prompt de Comando</strong> (Windows):
+                <br>&bull; <strong>Windows:</strong> aperte a tecla Windows, digite <code>cmd</code> e aperte Enter.
+                <br>&bull; <strong>Linux:</strong> aperte <code>Ctrl + Alt + T</code>.
+                <br>&bull; <strong>macOS:</strong> aperte <code>Command + Espaço</code>, digite <code>Terminal</code> e aperte Enter.
+            </div>
+            <div class="step"><strong>3.</strong> No terminal, entre na pasta onde os arquivos foram baixados:
+                <br>&bull; <strong>Linux/macOS:</strong> <code>cd ~/Downloads</code>
+                <br>&bull; <strong>Windows:</strong> <code>cd %USERPROFILE%\Downloads</code>
+            </div>
+            <div class="step"><strong>4.</strong> Cole o comando abaixo no terminal e aperte Enter para juntar as duas partes:
+                <br>&bull; <strong>Linux/macOS:</strong> <code>cat ticoOS-BETA-v0.0.1-x86_64.iso.part1 ticoOS-BETA-v0.0.1-x86_64.iso.part2 &gt; ticoOS-BETA-v0.0.1-x86_64.iso</code>
+                <br>&bull; <strong>Windows:</strong> <code>copy /b ticoOS-BETA-v0.0.1-x86_64.iso.part1+ticoOS-BETA-v0.0.1-x86_64.iso.part2 ticoOS-BETA-v0.0.1-x86_64.iso</code>
+            </div>
+            <div class="step"><strong>5.</strong> O arquivo <code>ticoOS-BETA-v0.0.1-x86_64.iso</code> vai aparecer na mesma pasta. Opcional: confira o SHA256 do ISO final:<br><code>2086572e504d6e52f43388aff30b005b1df3ea007c538e431d694d64c155a199</code></div>
             <div class="step"><a href="https://github.com/ticoOS/ticoOS.github.io/releases/download/iso-v0.0.1/SHA256SUMS" target="_blank" rel="noopener">Ver checksums das partes</a></div>
         </div>
         <br>
